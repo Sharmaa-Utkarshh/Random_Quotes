@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes Generator</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .all{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            background-color: aqua;
+            width: 80%;
+            margin: auto;
+            height: 80vh;
+            margin-top:12vh;
+        }
+        #quote{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #author{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            text-align: center;   
+        }
+        #click{
+            cursor: pointer;
+            padding: 10px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+    <h1 id="quote">Quote here</h1>
+    <h3 id="author">Author name here</h3>
+    <button id="click">Next quote</button>
+
+    </div>
+
+    <script src="quotes.js"></script>
+</body>
+</html>
